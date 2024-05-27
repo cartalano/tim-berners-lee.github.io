@@ -57,3 +57,18 @@ ul.breadcrumb li {
     color: #0275d8;
     text-decoration: none;
   }
+
+  .btn {
+    color: #0275d8;
+    background-color: #ffffff;
+    border-radius: 10px;
+  }
+.corps {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+  .photo {
+    width: 236px;
+  }
