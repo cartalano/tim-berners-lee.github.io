@@ -1,5 +1,10 @@
 body {
     margin: 0;
+    content: 90%;
+   background-color:#fafafa;
+}
+.breadcrumb {
+    margin: 0%;
 }
 
 header {
@@ -9,6 +14,7 @@ header {
 menu {
     background-color: #071c2e;
     margin: 0 ;
+    padding: 0%;
     display: flex;
     justify-content: space-between ;
     align-items: center ;
@@ -47,28 +53,97 @@ ul.breadcrumb li {
     font-size: 12px;
 }
 
-  ul.breadcrumb li+li:before {
+ul.breadcrumb li+li:before {
     padding: 8px;
     color: black;
     content: "›";
-  }
+}
 
   ul.breadcrumb li a {
     color: #0275d8;
     text-decoration: none;
-  }
+}
 
-  .btn {
+.btn {
     color: #0275d8;
     background-color: #ffffff;
     border-radius: 10px;
-  }
-.corps {
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
 }
 
-  .photo {
-    width: 236px;
-  }
+.log {
+    width: 20px; 
+}
+
+.corps {
+    width: 450px;
+    margin-left: 10px;
+    margin-right: auto;
+    background-color: rgb(255, 255, 255);   
+}
+
+.photo {
+    width: 120px;
+    height: 120px;
+}
+
+#firstpara {
+    width: 238px;
+    margin-left: 10px;
+}
+
+#secondpara {
+    width: 238px;
+    border: thin rgba(128, 128, 128, 0.321) solid;
+    margin-right: 10px;
+}
+
+  
+main {
+    width: 550px;
+    border: 1px solid gray;
+    background-color: #ffffff;
+}
+
+  #box {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+h2 {
+    font-size: 12px;
+}
+
+#icon {
+    width: 16px;
+}
+
+#bri {
+    width: 120px;
+}
+
+figure {
+    font-size: 10px;
+    color: gray;
+}
+
+a {
+    color: #0275d8;
+    text-decoration: none;
+}
+
+#see{
+    display: flex;
+    justify-content: center;
+    color: #1904b6;
+    text-decoration: none;  
+}
+
+hr {
+    width: 180px;
+    border-style: solid;
+    border-top: 1px;
+    color: lightgray;
+    text-align: center;
+}

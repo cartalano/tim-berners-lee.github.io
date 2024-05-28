@@ -13,7 +13,8 @@
     <header>
         <menu>
             <ul>
-                <li class="menu">Browse</li>
+                <li class="menu"><img src="images/logo-tim-berners-britanica.webp" alt="" id="bri"></li>
+                <li class="menu"><img id="icon" alt="menu" src="images/menu_24dp_FILL0_wght400_GRAD0_opsz24.png">Browse</li>
                 <li class="menu">search</li>
                 <li class="menu">Dictionary</li>
                 <li class="menu">Quizzes</li>
@@ -22,40 +23,55 @@
             </ul>
             <ul>
                 <li class="menu" id="subscribe">subscribe</li>
-                <li class="menu">login</li>
+                <li class="menu">login<img id="icon" alt="Arrow down logo" src="images/stat_minus_1_24dp_FILL0_wght400_GRAD0_opsz24.png"></li>
             </ul>
         </menu>
     </header>
-    <main>
+    <nav class="bread">
         <ul class="breadcrumb">
             <li><a href="#">Home</a></li>
             <li><a href="#">Science</a></li>
             <li><a href="#">Mathematics</a></li>
         </ul>
+    </nav>
+    <main>
         <section class="corps">
             <h1>Tim Berners-Lee</h1>
             <h2>British scientist</h2>
-            <button type="button" class="btn">Print</button>
-            <button type="button" class="btn">Cite</button>
-            <button type="button" class="btn">Share</button>
-            <button type="button" class="btn">Feedback</button>
+            <button type="button" class="btn"><img src="images/print.png" class="log">Print</button>
+            <button type="button" class="btn"><img src="images/check.png" class="log">Cite</button>
+            <button type="button" class="btn"><img src="images/share.png" class="log">Share</button>
+            <button type="button" class="btn"><img src="images/feedback.png" class="log">Feedback</button>
+            <button type="button" class="btn"><img src="images/more.png" class="log" alt="more"></button>
             <p>Alternate titles: Sir Tim Berners-Lee</p>
             <p>By Michael Aaron Dennis Last Update: Dec 2, 2022. Edit History</p>
-            <article class="article" id="firstpara">
-                <p>Tim Berners-Lee (born June 8, 1955, London, England) is a British computer scientist,
-                     generally credited as the inventor of the World Wide Web. 
-                     In 2004, he was awarded a knighthood by Queen Elizabeth II of the United Kingdom and the inaugural Millennium Technology Prize (€1 million) 
-                     by the Finnish Technology Award Foundation.<br /><br />
-                     Computing came naturally to Berners-Lee, as both of his parents worked on the Ferranti Mark I, the first commercial computer. 
-                     (See computer: The first stored-program machines.) After graduating in 1976 from the University of Oxford, 
-                     Berners-Lee designed computer software for two years at Plessey Telecommunications Ltd., 
-                     located in Poole, Dorset, England. Following this, he had several positions in the computer industry, 
-                     including a stint from June to December 1980 as a software engineering consultant at CERN, the European particle physics laboratory in Geneva.</p>
-            </article>
-            <article>
-                <img class="photo" src="/images/British-scientist-Tim-Berners-Lee.webp" alt="tim-berners-lee" />
-            </article>
         </section>
+            <section id="box">
+                <article class="article" id="firstpara">
+                 <p><b>Tim Berners-Lee</b>, in full <b>Sir Tim Berners-Lee</b>, (born June 8, 1955, 
+                    <a href="#">London</a>, England), British computer scientist, generally <a href="#">credited</a> 
+                    as the inventor of the <a href="#">World Wide Web</a>. In 2004 he was awarded a knighthood by Queen 
+                    <a href="#">Elizabeth II</a> of the United Kingdom and the inaugural Millennium Technology Prize (€1 million) 
+                    by the Finnish Technology Award Foundation. <br><br>
+                    Computing came naturally to Berners- Lee, as both of his parents worked on the <a href="#">Ferranti Mark I</a>, 
+                    the first commercial computer. (See <a href="#">computer: The first stored-program machines</a>.) After graduating in 1976 from the
+                     <a href="#">University of Oxford</a>, Berners-Lee designed computer <a href="#">software</a> 
+                     for two years at Plessey Telecommunications Ltd., located in <a href="#">Poole</a>, Dorset, 
+                     <a href="#">England</a>. Following this, he had several positions in the computer industry, 
+                     including a stint from June to December 1980 as a software engineering consultant at <a href="#">CERN</a>,
+                     the European <a href="#">particle physics</a> laboratory in <a href="#">Geneva</a>.</p>
+                 </article>
+                <aside class="side" id="secondpara">
+                     <figure>
+                     <img class="photo" src="/images/British-scientist-Tim-Berners-Lee.webp" alt="Tim Berners-Lee" />
+                     <figcaption>Tim Berners-Lee</figcaption>
+                    </figure>
+                    <a id="see" href="#">See all media</a>
+                    <hr>
+                
+
+                </aside>
+            </section>
     </main>
 </body>
 </html>
