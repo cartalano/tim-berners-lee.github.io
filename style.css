@@ -68,6 +68,8 @@ ul.breadcrumb li+li:before {
     color: #0275d8;
     background-color: #ffffff;
     border-radius: 10px;
+    justify-content: center;
+    
 }
 
 .log {
